@@ -1,0 +1,38 @@
+body {
+    background-color: #130f40;
+    color: #95afc0;
+}
+
+
+.todolist {
+    background-color: #30336b;
+    width: 600px;
+    margin: 30px auto;
+    border: 1px solid #2b2d5f;
+    border-radius: 15px;   
+}
+
+.todolist .card-header h1 { 
+    margin-bottom: 15px;
+}
+
+.btn--icon {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.todo-item {
+    padding: 15px 10px;
+    border-bottom: 1px solid #130f40;
+    font-weight: 500;
+}
+
+.todo-item label {
+    padding:0;
+    cursor: pointer;
+}
+
+.todo-item label.completed {
+    text-decoration: line-through;
+    color: #535c68;
+}
